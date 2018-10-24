@@ -1,12 +1,27 @@
 body {
     background-color:#1f2833;
+    color: white;
 }
 
 hr {
-    border-color:#66fcf1
+    border-color:#33b5e5
 }
 
 .jumbotron {
     background-color: transparent;
-    color:white;
+}
+
+.card {
+    background-color:transparent;
+    border-color:#33b5e5;
+}
+
+.card-header {
+    border-color:#33b5e5;
+}
+
+.btn-group-vertical .btn {
+    background-color:#4D78F7;
+    border-color:#1f2833;
+    
 }
