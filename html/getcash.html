@@ -47,10 +47,19 @@
                     </div>
                 </div>
                 <div class="col">
-
-                   <a href="addcash.html" type="button" class="btn btn-primary btn-lg btn-block">Add Cash</a>
-                   <a href="getcash.html" type="button" class="btn btn-primary btn-lg btn-block">Get Cash</a>
-                   <a href="other.html" type="button" class="btn btn-primary btn-lg btn-block">Other</a>
+                    
+                        <div class="row">
+                                <div class="col-4 mx-auto">
+                                    <input id="removeAmount" class="form-control form-control-lg" type="number" step="0.01" min="0.00" placeholder="Enter amount">
+                                </div>
+                            </div>
+                
+                            <div class="row mt-3">
+                                <div class="mx-auto">
+                                    <button onclick="getCash()" role="button" class="btn btn-primary btn-lg mr-2">Get</a>
+                                    
+                                    <form action="dashboard.html"><button role="button" class="btn btn-primary btn-lg">Cancel</button></form>
+                            </div> 
                 </div>
 
             </div>
